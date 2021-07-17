@@ -1,0 +1,71 @@
+main article .title {
+    color: #3B4F93;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main article .information {
+    color: #888888;
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
+}
+
+main article .body {
+    border-left: 4px solid #B9B9B9;
+    padding-left: 1rem;
+}
+
+main article .attachment {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main article .attachment li {
+    background: url(../img/paperclip-16x16.png) no-repeat;
+    padding-left: 17px;
+    line-height: 16px;
+    margin: 0.5rem auto;
+    color: #888888;
+    font-size: 0.8rem;
+}
+
+main article .footer {
+    display: flex;
+    height: 1.5em;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+main article .footer .left {
+    display: flex;
+    align-items: center;
+}
+
+main .positive-score {
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+main article .footer .right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+main article .footer .right img {
+    margin: auto 0.5em;
+}
+
+.articles ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.articles ul li {
+    margin-bottom: 2rem;
+}
