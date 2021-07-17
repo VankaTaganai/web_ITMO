@@ -1,0 +1,19 @@
+main .comment {
+    margin-bottom: 2em;
+}
+
+main .comment .information {
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+main .comment .body {
+    border-left: 4px solid var(--border-color);
+    padding-left: 0.75rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main .comment .body p:last-child {
+    margin: 0;
+}
